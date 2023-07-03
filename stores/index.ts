@@ -3,10 +3,10 @@ export const useStore = defineStore('indexStore', {
         count: 0,
     }),
     getters: {
-        doubleCount() {
+        doubleCount(): number {
             return this.count * 2
         },
-        doubleCountPlusOne() {
+        doubleCountPlusOne(): number {
             return this.doubleCount * 2 + 1
         },
     },
@@ -15,4 +15,7 @@ export const useStore = defineStore('indexStore', {
             this.count++
         },
     },
+    persist: {
+        paths: ['count'],
+    }
 })

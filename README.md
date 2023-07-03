@@ -1,6 +1,11 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Nuxt 3 + Pinia Starter Template
+
+This template is a starter point if you want to power Nuxt 3 with Pinia.
+
+The stores are located in the `stores` directory and are automatically registered in the nuxt.config.ts file. You can also use the `useStore` helper to access the main store in your components and create new stores. For more info, see the Pinia [documentation](https://pinia.vuejs.org/) and the [Nuxt 3 + Pinia](https://pinia.vuejs.org/api/modules/pinia_nuxt.html) section.
+
+For Nuxt3, look at the [documentation](https://nuxt.com/docs/getting-started/introduction).
 
 ## Setup
 
